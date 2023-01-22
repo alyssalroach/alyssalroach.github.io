@@ -1,11 +1,36 @@
+.navigation-bar {
+    width: 75%;
+    height: 130px;
+    padding-left: 25%;
+    background-color: #FCDDEC;
+    position: absolute;
+}
+
+.name-title {
+    padding-top: 20px
+}
+
+#name {
+    font-size: 48px;
+    color: #EF5DA8;
+    padding-left: 2%;
+    margin-top: 60px;
+}
+
+#my-title {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #EF5DA8;
+    padding-left: 2%;
+}
+
 .side-bar {
     width: 25%;
     height: 100%;
     background-color: #F178B6;
     float: left;
     position: fixed;
-    display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .head-shot {
@@ -13,31 +38,44 @@
     width: 200px;
     height: 200px;
     padding-top: 10px;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .links-to-sections {
-    padding-top: 400px;
+    padding-top: 20px;
+    padding-left: 5%;
+    position: relative;
+    color: black; 
+    font-size: 12px;
+    text-align: center;
+}
+
+.links {
+    color: black;
 }
 
 .arrow {
-    height: 20px;
+    height: 16px;
     vertical-align: center;
 }
 
 .description {
-    padding-top: 230px;
-    position: absolute;
+    padding-top: 20px;
+    position: relative;
     text-align: center;
     padding-left: 3px;
     padding-right: 3px;
     font-weight: lighter;
     color: white;
+    font-size: 16px
 }
 
 .content {
     padding-left: 30%;
-    position: absolute;
+    padding-top: 140px;
+    position: relative;
 }
 
 .vertical-line {
